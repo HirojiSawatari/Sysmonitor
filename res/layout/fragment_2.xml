@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/TextView1"
+        android:layout_width="fill_parent"
+        android:layout_height="46.0dip"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/skinpic_green"
+        android:gravity="center"
+        android:padding="12.0dip"
+        android:text="设备信息"
+        android:textColor="@android:color/white"
+        android:textSize="18.0sp" />
+
+    <ScrollView
+		android:id="@+id/scrollView1"
+   		android:scrollbarThumbVertical="@drawable/scrollbar_handle_vertical" 
+    	android:background="@color/info_panel_bg"
+		android:layout_width="match_parent" 
+		android:layout_height="match_parent"
+		android:layout_alignParentBottom="true"
+       	android:layout_alignParentLeft="true"
+    	android:layout_alignParentRight="true"
+	    android:layout_below="@+id/TextView1" >
+    
+    	<LinearLayout
+ 			android:id="@+id/InfoTable"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+       		android:orientation="vertical"
+      		android:paddingBottom="10.0dip"  >
+		</LinearLayout>
+	</ScrollView>
+    
+</RelativeLayout>
