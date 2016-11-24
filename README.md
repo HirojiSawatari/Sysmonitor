@@ -1,11 +1,11 @@
 Sysmonitor
 ==========
-An APP which can monitor the system and inquire hardware information
+An APP which can monitor the system and inquire hardware information.
 
 <img src='mdimage/image01.png' height='300px'/>
 <img src='mdimage/image02.png' height='300px'/>
 
-### System monitor
+## System monitor
 (1) RAM usage
 ```java
 public static float getUsedPercentValue(Context context) {
@@ -70,5 +70,5 @@ public void readUsage( ){
 }
 ```
 
-### Hardware information
+## Hardware information
 Please read my [blog](http://blog.csdn.net/osawatari/article/details/53292769).
